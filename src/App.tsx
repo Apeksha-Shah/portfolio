@@ -3,8 +3,8 @@ import Home from './components/Home'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Education from './components/Education'
-import Achievements from './components/Achievements'
 import Skills from './components/Skills'
+import Achievements from './components/Achievements'
 import './App.css'
 
 function App() {
