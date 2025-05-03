@@ -4,8 +4,7 @@ import {
     FaFlag,
     FaBrain,
     FaCode,
-    FaStar,
-    FaAward,
+    FaStar
   } from 'react-icons/fa';
   
   const Achievements = () => {

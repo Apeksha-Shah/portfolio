@@ -1,6 +1,3 @@
-import React from 'react';
-import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
-
 const Skills = () => {
   const skills = [
     {

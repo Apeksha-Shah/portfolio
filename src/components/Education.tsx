@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaCode, FaExternalLinkAlt } from 'react-icons/fa';
 
 const Education = () => {
