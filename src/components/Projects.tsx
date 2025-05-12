@@ -1,6 +1,18 @@
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
+    {
+    title: 'InsurIQ',
+    description: [
+      'AI-powered insurance recommendation platform using transaction and spending data.',
+      'Analyzes UPI and bank statements to classify insurance needs (life, health, credit, etc.).',
+      'Implements ML models to assess lifestyle, spending habits, and risk-benefit scores.',
+      'Suggests life insurance plans based on historical policies and benefit probability.',
+      'Built dashboards for personalized policy suggestions and tabular comparisons.',
+    ],
+    tech: 'FastAPI, Python, Spring Boot, HuggingFace, Next.js, TypeScript',
+    github: 'https://github.com/Insurance-AI/insurance-ai-platform',
+  },
   {
     title: 'TalkEase',
     description: [
