@@ -7,10 +7,6 @@ import {
   FaCode,
   FaStar,
 } from 'react-icons/fa';
-import bhashathonImg from '../assets/bhashathon.jpeg';
-import CodeQuest from '../assets/CodeQuest.png';
-import duhacksImg from '../assets/duhacks.png';
-import FlagHost from '../assets/flaghost.jpeg';
 
 const Achievements = () => {
   const keyAchievements = [
@@ -18,42 +14,42 @@ const Achievements = () => {
       highlight: 'Secured 2nd Place',
       event: 'Bhashathon',
       details: 'an AI/ML hackathon organized by IIT Bombay.',
-      image: bhashathonImg,
+      image: '/bhashathon.jpeg', // Image is now inside the public folder
       icon: <FaBrain className="text-teal-600 text-xl mt-1" />,
     },
     {
       highlight: 'Secured 7th Place',
       event: 'DuHacks 4.0',
       details: 'a competitive coding hackathon at DDU.',
-      image: duhacksImg,
+      image: '/duhacks.png', // Image is now inside the public folder
       icon: <FaCode className="text-teal-600 text-xl mt-1" />,
     },
     {
       highlight: 'Secured 3rd Rank',
       event: 'CodeQuest ICPC DDU Edition',
       details: 'organized by DDU.',
-      image: CodeQuest,
+      image: '/CodeQuest.png', // Image is now inside the public folder
       icon: <FaMedal className="text-teal-600 text-xl mt-1" />,
     },
     {
       highlight: 'Selected as Center First Student',
       event: '',
       details: 'to hoist the flag in 10th and 12th Grades.',
-      image: FlagHost,
+      image: '/flaghost.jpeg', // Image is now inside the public folder
       icon: <FaFlag className="text-teal-600 text-xl mt-1" />,
     },
     {
       highlight: 'Achieved Global Rank 4650',
       event: 'LeetCode Biweekly Contest-137',
       details: '(Top 25%).',
-      image: null, // Remove the image here
+      image: null, // No image here
       icon: <FaStar className="text-teal-600 text-xl mt-1" />,
     },
     {
       highlight: 'Achieved Global Rank 1998',
       event: 'CodeChef Starters 100',
       details: '',
-      image: null, // Remove the image here
+      image: null, // No image here
       icon: <FaStar className="text-teal-600 text-xl mt-1" />,
     }
   ];
